@@ -1,0 +1,10 @@
+Collect-RDSBaseline.ps1	Builds a historical baseline and identifies when broker behaviour changed
+Collect-RDSTransitionTimeline.ps1	Collects detailed events around exact failure windows
+Get-RDSServiceHistory.ps1	Shows RDS service stop/start sequences and incomplete restarts
+Get-TaskSchedulerHistory.ps1	Correlates scheduled tasks with RDS failures
+Find-TaskInstanceHistory.ps1	Traces a specific scheduled-task instance GUID
+Preserve-RDSEvidence.ps1	Preserves scripts, task definitions, logs, metadata, and hashes
+Monitor-RDSBrokers.ps1	Provides read-only live monitoring of broker health
+Capture-RDSIncidentSnapshot.ps1	Captures volatile evidence before a reboot
+Review-RDSScripts.ps1	Performs static analysis of PowerShell remediation scripts
+Analyze-HealthCheckLogs.ps1	Finds automated and incomplete TermService restart attempts
