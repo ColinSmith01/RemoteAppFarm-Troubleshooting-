@@ -1,4 +1,19 @@
 #requires -Version 5.1
+<#
+
+Event ID	Meaning
+100	Task started
+101	Task failed
+102	Task finished
+107	Time/event trigger fired
+129	Task process created
+140	Task updated
+200	Action started
+201	Action completed
+202/203	Action failure
+322	New run ignored because an instance is already running
+
+#>
 
 $Servers = @(
     "Broker01",
