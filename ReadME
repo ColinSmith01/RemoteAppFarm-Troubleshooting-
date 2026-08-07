@@ -8,3 +8,6 @@ Monitor-RDSBrokers.ps1	Provides read-only live monitoring of broker health
 Capture-RDSIncidentSnapshot.ps1	Captures volatile evidence before a reboot
 Review-RDSScripts.ps1	Performs static analysis of PowerShell remediation scripts
 Analyze-HealthCheckLogs.ps1	Finds automated and incomplete TermService restart attempts
+Stop IAS Hanging after reboot.ps1 - Script to Stop IAS Hanging
+FindCorruptRAProfile.ps1 - find a corrupted file path if the folder is corrupt use this to find the encrypted.
+Delete Corrupted Folder.ps1 - delete corrupted RA profile
