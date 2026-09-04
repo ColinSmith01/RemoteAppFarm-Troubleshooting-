@@ -190,3 +190,15 @@ Get-SmbShareAccess -Name $ShareName |
     Format-Table AccountName, AccessControlType, AccessRight -AutoSize
 
 #endregion
+
+
+
+
+<# CLEANUP if needed run seperate
+
+.\Remove-HiddenShare.ps1 `
+    -Folder 'C:\Path\To\Application\Data' `
+    -ShareName 'application-data$' `
+    -UserGroup 'EXAMPLE\App-RemoteApp-Users'
+
+    #>
