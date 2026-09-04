@@ -11,3 +11,5 @@ Analyze-HealthCheckLogs.ps1	Finds automated and incomplete TermService restart a
 Stop IAS Hanging after reboot.ps1 - Script to Stop IAS Hanging
 FindCorruptRAProfile.ps1 - find a corrupted file path if the folder is corrupt use this to find the encrypted.
 Delete Corrupted Folder.ps1 - delete corrupted RA profile
+Create Private Share for RA.ps1 Create Private share to add into collection for RA
+Remove-HiddenShare.ps1 - Cleanup for Decomming Private share.
